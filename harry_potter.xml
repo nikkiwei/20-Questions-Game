@@ -1,0 +1,93 @@
+<harry_potter>
+	<question root = "root">Is it a person?</question>
+	<answer id = "Yes">
+		<question>Is it a student?</question>
+		<answer id = "Yes">
+			<question>Is it a female?</question>
+			<answer id = "Yes">
+				<question>Ginny Weasley</question>
+			</answer>
+			<answer id = "No">
+				<question>Draco Malfoy</question>
+			</answer>
+		</answer>
+		<answer id = "No">
+			<question>Is it a professor?</question>
+			<answer id = "Yes">
+				<question>Minerva McGonagall</question>
+			</answer>
+			<answer id = "No">
+				<question>Lord Voldemort</question>
+			</answer>
+		</answer>
+	</answer>
+	<answer id = "No">
+		<question>Is it a place?</question>
+		<answer id = "Yes">
+			<question>Is it in Diagon Alley?</question>
+			<answer id = "Yes">
+				<question>Weasleys' Wizard Wheezes</question>
+			</answer>
+			<answer id = "No">
+				<question>Is it in Hogsmeade?</question>
+				<answer id = "Yes">
+					<question>Shrieking Shack</question>
+				</answer>
+				<answer id = "No">
+					<question>Is it in Hogwarts?</question>
+					<answer id = "Yes">
+						<question>Room of Requirement</question>
+					</answer>
+					<answer id = "No">
+						<question>Azkaban</question>
+					</answer>
+				</answer>
+			</answer>
+		</answer>
+		<answer id = "No">
+			<question>Is it an object?</question>
+			<answer id = "Yes">
+				<question>Is it a Deathly Hallow?</question>
+				<answer id = "Yes">
+					<question>Has it ever belonged to James Potter?</question>
+					<answer id = "Yes">
+						<question>Invisibility Cloak</question>
+					</answer>
+					<answer id = "No">
+						<question>Elder Wand</question>
+					</answer>
+				</answer>
+				<answer id = "No">
+					<question>Has it ever belonged to George and Fred Weasley?</question>
+					<answer id = "Yes">
+						<question>The Marauder's Map</question>
+					</answer>
+					<answer id = "No">
+						<question>Golden Snitch</question>
+					</answer>
+				</answer>
+			</answer>
+			<answer id = "No">
+				<question>Is it a snake?</question>
+				<answer id = "Yes">
+					<question>Is it a Horcrux?</question>
+					<answer id = "Yes">
+						<question>Nagini</question>
+					</answer>
+					<answer id = "No">
+						<question>Basilisk</question>
+					</answer>
+				</answer>
+				<answer id = "No">
+					<question>Is it a spell?</question>
+					<answer id = "Yes">
+						<question>Sectumsempra</question>
+					</answer>
+					<answer id = "No">
+						<question>Crookshanks</question>
+					</answer>
+				</answer>
+			</answer>
+		</answer>
+	</answer>
+</harry_potter>
